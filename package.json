@@ -1,0 +1,34 @@
+{
+  "name": "idle-rpg-bot",
+  "version": "0.0.1",
+  "description": "An Idle-RPG Bot for Discord, Maybe twitch aswell in the future.",
+  "main": "app.js",
+  "scripts": {
+    "start:windows": "SET NODE_ENV=production && node app.js",
+    "start": "NODE_ENV=production node app.js",
+    "test:windows": "SET NODE_ENV=development && node app.js",
+    "test": "NODE_ENV=development node app.js"
+  },
+  "author": "Sunny Huang",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "cron": "^1.3.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "mongodb": "^3.2.3",
+    "mongoose": "^4.13.18",
+    "querystring": "^0.2.0",
+    "seedrandom": "^2.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
