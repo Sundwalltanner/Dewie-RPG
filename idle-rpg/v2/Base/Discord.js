@@ -109,20 +109,20 @@ As long as you're in any voice channel but the AFK channel, you will be playing 
 • **Will my character be reset?**
 Probably.
 
-• **How can I help with the development?**
-You can't. Fuck off.
-
 • **My event counter goes up but I did not see anything in the event channels**
 There are some events such as luck events which fail. When they do it does not print anything but your event counter goes up.
 
 • **Is there a way to turn off all the spam from events?**
 Yes, you can right click the channel to mute and select the mute checkbox.
 
+• **Is this open source?**
+Yes, <https://github.com/Sundwalltanner/Dewie-RPG>
+
 • **Can I control my character?**
 No. But you can do something like enter the command !lottery once every day to have a shot at winning a large amount of money. It costs 100 gold to enter the lottery, and the winner is revealed at 10AM (Pacific) every day.
 
 • **My character was killed by another player while I wasn't playing!**
-That sucks.
+Get good.
 
 • **When is the Power Hour and what is it?**
 Power Hour starts at 2:00PM (Pacific) every day and increases the global multiplier by 1.
