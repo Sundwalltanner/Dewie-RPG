@@ -107,7 +107,6 @@ class Commands extends aggregation(BaseGame, BaseHelper) {
     if (player.gold.current >= 100)
     {
       player.gold.current -= 100;
-      player.gold.total -= 100;
       player.lottery.joined = true;
       player.lottery.amount += 100;
 
